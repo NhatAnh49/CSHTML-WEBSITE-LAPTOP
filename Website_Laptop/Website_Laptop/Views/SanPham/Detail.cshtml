@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+@model Website_Laptop.Models.SANPHAM
+<style>
+    /* Style for product details */
+    .product-details {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+        .product-details h4 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .product-details ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .product-details ul li {
+                margin-bottom: 10px;
+            }
+
+                .product-details ul li strong {
+                    font-weight: bold;
+                    color: #333;
+                }
+
+                .product-details ul li span {
+                    color: #666;
+                }
+
+    .btn-add-to-cart {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-add-to-cart:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center">Chi Tiết Sản Phẩm</h2>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img src="/Images/@Model.ANH" class="img-fluid" alt="@Model.TENSP">
+        </div>
+
+        <div class="col-md-6">
+            <div class="product-details">
+                <h4>Thông Tin Chi Tiết</h4>
+                <ul>
+                    <li><strong>Mã Sản Phẩm:</strong> <span>@Model.MASP</span></li>
+                    <li><strong>Tên Sản Phẩm:</strong> <span>@Model.TENSP</span></li>
+                    <li><strong>Nhà Sản Xuất:</strong> <span>@Model.NSX</span></li>
+                    <li><strong>Mô Tả Sản Phẩm:</strong> <span>@Model.MOTA</span></li>
+                    <li><strong>Số Lượng Hàng:</strong> <span>@Model.SOLUONG</span></li>
+                    <li><strong>Giá:</strong> <span class="text-danger">@String.Format("{0:0,0}", Model.GIA)đ</span></li>
+                </ul>
+                <a href="@Url.Action("ThemGioHang", "GioHang", new { ma = Model.MASP, strURL = Request.Url.ToString() })" class="btn btn-add-to-cart">
+                    Thêm Vào Giỏ Hàng
+                </a>
+                <a href="@Url.Action("ShowAll", "SanPham")" class="btn btn-add-to-cart">
+                    Quay Về
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

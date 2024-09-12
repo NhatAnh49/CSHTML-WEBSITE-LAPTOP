@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WEBLAP" Class="DBLaptopDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-SQV9ICR;Initial Catalog=WEBLAP;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WEBLAPConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADONs">
+    <Type Name="CHITIETHOADON">
+      <Column Name="MAHD" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MASP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="THANHTIEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HOADON_CHITIETHOADON" Member="HOADON" ThisKey="MAHD" OtherKey="MAHD" Type="HOADON" IsForeignKey="true" />
+      <Association Name="SANPHAM_CHITIETHOADON" Member="SANPHAM" ThisKey="MASP" OtherKey="MASP" Type="SANPHAM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOADON" Member="HOADONs">
+    <Type Name="HOADON">
+      <Column Name="MAHD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NGAYGIAO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NGAYDAT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TINHTRANG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATHANHTOAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MAKH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HOADON_CHITIETHOADON" Member="CHITIETHOADONs" ThisKey="MAHD" OtherKey="MAHD" Type="CHITIETHOADON" />
+      <Association Name="TAIKHOAN_HOADON" Member="TAIKHOAN" ThisKey="MAKH" OtherKey="MAKH" Type="TAIKHOAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAISP" Member="LOAISPs">
+    <Type Name="LOAISP">
+      <Column Name="MALOAI" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENLOAI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="LOAISP_SANPHAM" Member="SANPHAMs" ThisKey="MALOAI" OtherKey="MALOAI" Type="SANPHAM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SANPHAM" Member="SANPHAMs">
+    <Type Name="SANPHAM">
+      <Column Name="MALOAI" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TENSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NSX" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ANH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MOTA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TGBH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MASP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="SANPHAM_CHITIETHOADON" Member="CHITIETHOADONs" ThisKey="MASP" OtherKey="MASP" Type="CHITIETHOADON" />
+      <Association Name="LOAISP_SANPHAM" Member="LOAISP" ThisKey="MALOAI" OtherKey="MALOAI" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAIKHOAN" Member="TAIKHOANs">
+    <Type Name="TAIKHOAN">
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HOTEN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MATKHAU" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ANHBIA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="VAITRO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TENDN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MAKH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NGAYSINH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="TAIKHOAN_HOADON" Member="HOADONs" ThisKey="MAKH" OtherKey="MAKH" Type="HOADON" />
+    </Type>
+  </Table>
+</Database>

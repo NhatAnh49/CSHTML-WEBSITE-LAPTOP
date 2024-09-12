@@ -1,0 +1,258 @@
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+C:\Users\dangk\OneDrive\Máy tính\official\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+E:\DOWLOADS\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+C:\Users\dangk\OneDrive\Máy tính\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\do_an\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_4-6\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_New\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csprojResolveAssemblyReference.cache
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+D:\Met moi\LTWeb\do_an\LTW_New2\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll.config
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Website_Laptop.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Website_Laptop.pdb
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Microsoft.Web.Infrastructure.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Http.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Razor.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\WebGrease.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Newtonsoft.Json.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Net.Http.Formatting.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Helpers.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Http.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Http.WebHost.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Mvc.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Optimization.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.Razor.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Deployment.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\System.Web.WebPages.Razor.xml
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\bin\Antlr3.Runtime.pdb
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csproj.AssemblyReference.cache
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csproj.CoreCompileInputs.cache
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.csproj.CopyComplete
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.dll
+E:\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Nhom8_SaleLapTop\Website_Laptop\Website_Laptop\obj\Debug\Website_Laptop.pdb

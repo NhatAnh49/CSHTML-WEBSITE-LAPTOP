@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "ThongTinTaiKhoan";
+    Layout = "~/Views/Shared/HeaderLayout.cshtml";
+}
+
+@model Website_Laptop.Models.TAIKHOAN
+@using Website_Laptop.Models
+@{
+    TAIKHOAN tk = (TAIKHOAN)Session["taikhoan"];
+}     
+
+@{
+    if (tk == null)
+{ 
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h2>Bạn Chưa Đăng Nhập Vào Tài Khoản</h2><br/>
+                <a class="btn btn-primary" href="/NguoiDung/DangNhap" style="margin-bottom:20px;">Đăng Nhập</a>
+            </div>
+        </div>
+    </div>
+}
+    else
+    { 
+    <h2 class="text-center mt-5">Thông Tin Tài Khoản</h2>
+
+    <div class="mt-5 row" >
+        <div class="col-6">
+            <img src="/Images/user.jpg" width="500"/>
+        </div>
+        
+        <div class="col-6" style="font-size: 30px">
+            <p>Họ Tên: @Model.HOTEN</p>
+            <p>Email: @Model.EMAIL</p>
+            <p>Vai Trò: @Model.VAITRO</p>
+            <p>Địa Chỉ: @Model.DIACHI</p>
+            <p>Ngày Sinh:  @String.Format("{0:MM/dd/yyyy}", Model.NGAYSINH)</p>
+            <a href="/NguoiDung/DangXuat/" class="btn btn-danger">Đăng Xuất</a>
+            @if (tk.VAITRO == "ADMIN")
+            {
+                <a href="/Admin/QuanLiSP/" class="btn btn-success">Quản Lý Sản Phẩm</a>
+            }
+        </div>
+
+    </div>
+
+    
+    }
+}
+

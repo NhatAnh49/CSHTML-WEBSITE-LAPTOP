@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <style>
+                /* Custom Navbar Brand */
+                .navbar-brand-3d {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-style: italic;
+                    position: relative;
+                    display: inline-block;
+                }
+
+                    .navbar-brand-3d:before {
+                        content: attr(data-text);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: -1;
+                        color: #ff00ff;
+                        letter-spacing: 5px;
+                    }
+
+                /* Custom Sidebar */
+                .sidebar {
+                    background-color: skyblue;
+                    color: #fff;
+                    padding-top: 20px;
+                }
+
+                .sidebar-heading {
+                    padding: 0.75rem 1.25rem;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+
+                .list-group-item-action {
+                    color: #fff;
+                }
+
+                    .list-group-item-action:hover {
+                        background-color: lightblue;
+                    }
+
+                    .list-group-item-action.active {
+                        background-color: lightblue;
+                        color: #17a2b8;
+                    }
+
+                .list-group-item {
+                    border: none;
+                }
+
+                /* Custom Footer */
+                .footer {
+                    background-color: skyblue;
+                    color: white;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                }
+
+                .social-icon {
+                    margin-right: 5px;
+                    color: white;
+                }
+
+                .footer p {
+                    font-size: 0.9rem;
+                    margin-bottom: 5px;
+                }
+
+                .footer hr {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+
+                .bg-skyblue {
+                    background-color: skyblue !important;
+                }
+
+                /*.carousel-container {
+                    display: flex;
+        flex-wrap: nowrap;
+                }
+
+                    .carousel-container .sidebar {
+                        flex: 0 0 25%;
+                    }
+
+                    .carousel-container .carousel {
+                        flex: 1;
+                    }*/
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-skyblue">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-3d" href="/SanPham/ShowAll" data-text="LL Store">
+                <i class="bi bi-chat-heart-fill"></i>LL Store
+                <i class="bi bi-cart-check-fill"></i>
+            </a>
+            <form action="/SanPham/Search" class="d-flex ms-auto" style="width: 50%;">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="txtSearch">
+                <button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/ThongTinTaiKhoan"><i class="bi bi-person-circle"></i>TÀI KHOẢN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/SanPham/ShowAll"><i class="bi bi-house-door"></i>TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/GioHang/HienThiGioHang">
+                        @Html.Action("GioHangPartial", "GioHang")
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/DangKy"><i class="bi bi-person-plus"></i>ĐĂNG KÝ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/DangNhap"><i class="bi bi-box-arrow-in-right"></i>ĐĂNG NHẬP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Carousel and Sidebar -->
+    <div class="carousel-container">
+        <!-- Sidebar -->
+        @*<div class="sidebar bg-skyblue">
+                        <h5 class="sidebar-heading">Danh Mục Sản Phẩm</h5>
+                        <div class="list-group bg-skyblue">
+                            <h6 class="bg-skyblue"><a href="#" class="list-group-item list-group-item-action dropdown-toggle bg-skyblue" data-bs-toggle="collapse" data-bs-target="#laptopSubMenu">LAPTOP</a></h6>
+                            <div class="collapse" id="laptopSubMenu">
+                                <div class="list-group bg-skyblue">
+                                    <!-- Thêm các danh mục con tại đây -->
+                                    @Html.Action("WinPartial", "SANPHAM")
+                                    <!-- Thêm danh mục con khác nếu cần -->
+                                </div>
+                            </div>
+                            <h6 class="bg-skyblue"><a href="#" class="list-group-item list-group-item-action dropdown-toggle bg-skyblue" data-bs-toggle="collapse" data-bs-target="#macbookSubMenu">MACBOOK</a></h6>
+            <div class="collapse" id="macbookSubMenu">
+                                <div class="list-group bg-skyblue">
+                                    <!-- Thêm các danh mục con tại đây -->
+                                    @Html.Action("MacPartial", "SANPHAM")
+                                    <!-- Thêm danh mục con khác nếu cần -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+        <!-- Carousel -->
+        <div id="laptopCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#laptopCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#laptopCarousel" data-slide-to="1"></li>
+                <li data-target="#laptopCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/Images/Banner/Banner1.jpg" style="width: 70% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/Images/Banner/Banner2.jpg" style="width: 70% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/Images/Banner/Banner3.jpg" style="width: 70% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#laptopCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#laptopCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="laptopCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#laptopCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#laptopCarousel" data-slide-to="1"></li>
+                <li data-target="#laptopCarousel" data-slide-to="2"></li>
+            </ol>
+            @*<div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="~/Images/Banner/Banner1.jpg" style="width: 50% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                <img class="d-block w-100" src="~/Images/Banner/Banner2.jpg" style="width: 50% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt=" second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="~/Images/Banner/Banner3.jpg" style="width: 50% !important; height: auto; display:block; margin-left:auto; margin-right:auto" alt="Third slide">
+                                    </div>
+                                </div>*@
+            <a class="carousel-control-prev" href="#laptopCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#laptopCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Sidebar -->
+                <div class="sidebar bg-skyblue">
+                    <h5 class="sidebar-heading">Danh Mục Sản Phẩm</h5>
+                    <div class="list-group bg-skyblue">
+                        <h6 class="bg-skyblue"><a href="#" class="list-group-item list-group-item-action dropdown-toggle bg-skyblue" data-bs-toggle="collapse" data-bs-target="#laptopSubMenu">LAPTOP</a></h6>
+                        <div class="collapse" id="laptopSubMenu">
+                            <div class="list-group bg-skyblue">
+                                <!-- Thêm các danh mục con tại đây -->
+                                @Html.Action("WinPartial", "SANPHAM")
+                                <!-- Thêm danh mục con khác nếu cần -->
+                            </div>
+                        </div>
+                        <h6 class="bg-skyblue"><a href="#" class="list-group-item list-group-item-action dropdown-toggle bg-skyblue" data-bs-toggle="collapse" data-bs-target="#macbookSubMenu">MACBOOK</a></h6>
+                        <div class="collapse" id="macbookSubMenu">
+                            <div class="list-group bg-skyblue">
+                                <!-- Thêm các danh mục con tại đây -->
+                                @Html.Action("MacPartial", "SANPHAM")
+                                <!-- Thêm danh mục con khác nếu cần -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="d-flex justify-content-end mt-4 mb-4">
+                    <!-- Modified -->
+                    <div class="dropdown ms-auto">
+                        <!-- Modified -->
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sắp xếp
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("SapXep", "SapXep", new { sortOrder = ViewBag.NameSortParm })">A -> Z</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("SapXep", "SapXep", new { sortOrder = ViewBag.PriceSortParm })">Giá Tăng</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("SapXep", "SapXep", new { sortOrder = ViewBag.PriceDescSortParm })">Giá Giảm</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Main Content Body -->
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>About Our Shop</h6>
+                    <p>Welcome to Luxury Laptop Store! We offer a wide range of high-quality laptops to meet your computing needs. Explore our collection of the latest and most reliable laptops in the market.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contact Information</h6>
+                    <p><strong>Address:</strong>140 Lê Trọng Tấn, phường Tây Thạnh, Quận Tân Phú, TP.Hồ Chí Minh</p>
+                    <p><strong>Email:</strong> LuxuryStore@gmail.com</p>
+                    <p><strong>Phone:</strong> (666) 686-6868</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Follow Us</h6>
+                    <p>Stay connected with us on social media for the latest updates, promotions, and tech news.</p>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-2" style="border-color: white;">
+        <p class="text-center">&copy; 2024 Luxury Laptop Store. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Mã JavaScript -->
+    <script>
+        $(document).ready(function () {
+            // Thời gian delay giữa các lần chuyển slide (đơn vị: milliseconds)
+            var delay = 3000; // Ví dụ: 5 giây
+
+            // Mảng chứa đường dẫn của các banner
+            var banners = [
+                "/Images/Banner/Banner1.jpg",
+                "/Images/Banner/Banner2.jpg",
+                "/Images/Banner/Banner3.jpg",
+                // Thêm các đường dẫn của các banner khác nếu cần
+            ];
+
+            // Chạy hàm autoCarousel() sau mỗi khoảng thời gian delay
+            setInterval(autoCarousel, delay);
+
+            // Hàm thực hiện chuyển slide tự động
+            function autoCarousel() {
+                var activeIndex = $('.carousel-item.active').index();
+                var nextIndex = (activeIndex + 1) % banners.length; // Lấy chỉ số của slide tiếp theo
+                var bannerPath = banners[nextIndex]; // Lấy đường dẫn của banner tiếp theo
+                // Thay đổi đường dẫn của ảnh trong carousel
+                $('.carousel-item.active img').attr('src', bannerPath);
+                // Chuyển đến slide tiếp theo
+                $('#laptopCarousel').carousel('next');
+            }
+        });
+    </script>
+</body>
+</html>

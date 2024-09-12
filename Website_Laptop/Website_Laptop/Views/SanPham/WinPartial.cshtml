@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Website_Laptop.Models.LOAISP>
+
+@foreach (var item in Model)
+{
+    <li class="list-group-item bg-skyblue"><a href="/SanPham/ShowName?ma=@item.MALOAI" style="text-transform:uppercase; text-decoration:none; color: white;">@item.TENLOAI</a></li>
+}
+

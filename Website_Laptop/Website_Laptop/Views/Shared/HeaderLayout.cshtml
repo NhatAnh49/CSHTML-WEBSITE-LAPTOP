@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom Navbar Brand */
+        .navbar-brand-3d {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            position: relative;
+            display: inline-block;
+        }
+
+            .navbar-brand-3d:before {
+                content: attr(data-text);
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                color: #ff00ff;
+                letter-spacing: 5px;
+            }
+
+        /* Custom Footer */
+        .footer {
+            background-color: skyblue;
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        .social-icon {
+            margin-right: 5px;
+            color: white;
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        .footer hr {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .bg-skyblue {
+            background-color: skyblue !important;
+        }
+    </style>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-skyblue">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-3d" href="/SanPham/ShowAll" data-text="LL Store">
+                <i class="bi bi-chat-heart-fill"></i>LL Store
+                <i class="bi bi-cart-check-fill"></i>
+            </a>
+            <form action="/SanPham/Search" class="d-flex ms-auto" style="width: 50%;">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="txtSearch">
+                <button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/ThongTinTaiKhoan"><i class="bi bi-person-circle"></i>TÀI KHOẢN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/SanPham/ShowAll"><i class="bi bi-house-door"></i>TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/GioHang/HienThiGioHang">
+                        @Html.Action("GioHangPartial", "GioHang")
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/DangKy"><i class="bi bi-person-plus"></i>ĐĂNG KÝ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/NguoiDung/DangNhap"><i class="bi bi-box-arrow-in-right"></i>ĐĂNG NHẬP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <!-- Main Content Body -->
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>About Our Shop</h6>
+                    <p>Welcome to Luxury Laptop Store! We offer a wide range of high-quality laptops to meet your computing needs. Explore our collection of the latest and most reliable laptops in the market.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contact Information</h6>
+                    <p><strong>Address:</strong>140 Lê Trọng Tấn, phường Tây Thạnh, Quận Tân Phú, TP.Hồ Chí Minh</p>
+                    <p><strong>Email:</strong> LuxuryStore@gmail.com</p>
+                    <p><strong>Phone:</strong> (666) 686-6868</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Follow Us</h6>
+                    <p>Stay connected with us on social media for the latest updates, promotions, and tech news.</p>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-2" style="border-color: white;">
+        <p class="text-center">&copy; 2024 Luxury Laptop Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

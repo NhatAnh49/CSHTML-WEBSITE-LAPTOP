@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "ThongBao";
+    Layout = "~/Views/Shared/HeaderLayout.cshtml"; // Ensure the layout path is correct
+}
+
+<h2 class="text-center mt-5">Đơn Hàng Của Bạn Đã Được Ghi Nhận!</h2>
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header text-center">
+            <h2>PHIẾU HÓA ĐƠN</h2>
+        </div>
+        <div class="card-body">
+            @if (ViewBag.HoaDon != null)
+            {
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <p><strong>Mã hóa đơn:</strong> @ViewBag.HoaDon.MAHD</p>
+                        <p><strong>Ngày đặt:</strong> @ViewBag.HoaDon.NGAYDAT</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Ngày giao:</strong> @ViewBag.HoaDon.NGAYGIAO</p>
+                        <p><strong>Tình trạng thanh toán:</strong> @ViewBag.HoaDon.DATHANHTOAN</p>
+                    </div>
+                </div>
+            }
+
+            @if (ViewBag.DanhSachSanPham != null && ViewBag.DanhSachSanPham.Count > 0)
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Tổng tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var sanPham in ViewBag.DanhSachSanPham)
+                            {
+                                <tr>
+                                    <td>@sanPham.sTENSP</td>
+                                    <td>@sanPham.iSoLuong</td>
+                                    <td>@String.Format("{0:0,0}", sanPham.iGIA)đ</td>
+                                    <td>@String.Format("{0:0,0}", sanPham.iSoLuong * sanPham.iGIA)đ</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <p class="text-center">Không có sản phẩm nào trong đơn hàng.</p>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        margin-top: 20px;
+    }
+
+    .card-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .table th {
+        background-color: #f1f1f1;
+    }
+</style>

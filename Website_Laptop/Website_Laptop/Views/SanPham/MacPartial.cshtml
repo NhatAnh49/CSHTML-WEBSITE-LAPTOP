@@ -1,0 +1,7 @@
+﻿
+@model IEnumerable<Website_Laptop.Models.SANPHAM>
+
+@foreach (var item in Model)
+{
+    <h6 class="bg-skyblue"><a href="/SanPham/ShowNameMac?ma=@item.MASP" class="list-group-item list-group-item-action dropdown-toggle bg-skyblue" style="text-transform:uppercase; text-decoration:none;">@item.TENSP</a></h6>
+}

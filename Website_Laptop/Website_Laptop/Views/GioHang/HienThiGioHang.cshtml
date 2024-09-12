@@ -1,0 +1,73 @@
+﻿@model List<Website_Laptop.Models.GioHang>
+@{
+    ViewBag.Title = "HienThiGioHang";
+    Layout = "~/Views/Shared/HeaderLayout.cshtml";
+}
+
+<h2 class="mt-5 text-center">Trang Giỏ Hàng</h2>
+
+@if (Model.Count() == 0)
+{
+    <div class="text-center">@ViewBag.TB</div>
+}
+else
+{
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-dark">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="bg-lightyellow">
+                                    <tr>
+                                        <th class="text-danger">Mã Sản Phẩm</th>
+                                        <th class="text-danger">Tên Sản Phẩm</th>
+                                        <th class="text-danger">Hình Ảnh</th>
+                                        <th class="text-danger">Số Lượng</th>
+                                        <th class="text-danger">Giá Tiền</th>
+                                        <th class="text-danger">Thành Tiền</th>
+                                        <th colspan="2" class="text-danger"> <a href="/GioHang/XoaTatCa" style="width:100%" class="btn btn-danger">XÓA GIỎ HÀNG</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.sMASP</td>
+                                            <td>@item.sTENSP</td>
+                                            <td><a href="@Url.Action("Detail", "SanPham", new { @ma = item.sMASP })"><img src="/Images/@item.sANH" width="120"></a></td>
+                                            <td>
+                                                @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @ma = item.sMASP }))
+                                                {
+                                                    <td width="12%"> <input type="number" min="1" name="txtSoLuong" value="@item.iSoLuong" style="width: 40px; border:none" /> </td>
+                                                    <td width="12%"> @String.Format("{0:0,0}", item.iGIA)đ</td>
+                                                    <td width="16%"> @String.Format("{0:0,0}", item.dThanhTien)đ</td>
+                                                    <td><input type="submit" value="Cập Nhật" class="btn btn-success" /></td>
+                                                }
+
+                                            <td>
+                                                <a href="/GioHang/XoaSanPham?ma=@item.sMASP">
+                                                    <input type="submit" value="Xóa" class="btn btn-danger " />
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                    <tr style="background-color: lightcoral">
+                                        <td colspan="3" class="text-primary">Tổng Cộng:</td>
+                                        <td class="text-primary">Số Lượng: @ViewBag.TSL</td>
+                                        <td class="text-primary" colspan="2">Thành Tiền: @String.Format("{0:0,0}", @ViewBag.TTT)</td>
+                                        <td colspan="2">
+                                            <a href="/GioHang/DatHang" class="btn btn-warning text-white" style="font-size:20px; width: 100%">Đặt Hàng</a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Đặt Hàng";
+    Layout = "~/Views/Shared/HeaderLayout.cshtml";
+    TAIKHOAN tk = (TAIKHOAN)Session["taikhoan"];
+}
+
+@using Website_Laptop.Models
+@model List<GioHang>
+
+<h2 class="text-center mt-5">Đặt Hàng</h2>
+
+<div class="container mt-4">
+    <div class="card border-dark order-summary shadow-sm mb-5">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr class="text-center bg-light">
+                            <th>Mã Sản Phẩm</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Hình Ảnh</th>
+                            <th>Số Lượng</th>
+                            <th>Giá Tiền</th>
+                            <th>Thành Tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="text-center">
+                                <td>@item.sMASP</td>
+                                <td>@item.sTENSP</td>
+                                <td>
+                                    <a href="@Url.Action("XemChiTiet", "Sach", new { @ms = item.sMASP })">
+                                        <img src="/Images/@item.sANH" width="120" alt="@item.sTENSP">
+                                    </a>
+                                </td>
+                                <td>@item.iSoLuong</td>
+                                <td>@String.Format("{0:0,0}", item.iGIA)đ</td>
+                                <td>@String.Format("{0:0,0}", item.dThanhTien)đ</td>
+                            </tr>
+                        }
+                        <tr class="bg-lightcoral">
+                            <td colspan="5" class="text-right">Tổng Thành Tiền:</td>
+                            <td class="text-primary">@String.Format("{0:0,0}", ViewBag.TTT)đ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-2 account-info border rounded shadow-sm mb-5">
+            <h2 class="text-center mt-4">Thông Tin Tài Khoản</h2>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <p>Họ Tên: @tk.HOTEN</p>
+                    <p>Email: @tk.EMAIL</p>
+                    <p>Địa Chỉ: @tk.DIACHI</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Ngày Đặt Hàng: @String.Format("{0:dd/MM/yyyy}", DateTime.Now)</p>
+                    <label for="NgayGiao" class="form-label">Ngày Giao Hàng:</label>
+                    <input type="date" name="NgayGiao" id="NgayGiao" class="form-control" required>
+                    <label for="phuongthuc" class="form-label mt-3">Phương Thức Thanh Toán:</label>
+                    <select name="phuongthuc" id="phuongthuc" class="form-select" required>
+                        <option value="0">Thanh Toán Khi Nhận Hàng</option>
+                        <option value="1">Thanh Toán Online</option>
+                    </select>
+                </div>
+            </div>
+            <p class="text-danger mt-5">Tổng Thành Tiền: @String.Format("{0:0,0}", ViewBag.TTT)đ</p>
+            <a href="/GioHang/ThongBao" class="btn btn-danger float-end">Xác Nhận Đơn Hàng</a>
+        </div>
+    </div>
+</div>

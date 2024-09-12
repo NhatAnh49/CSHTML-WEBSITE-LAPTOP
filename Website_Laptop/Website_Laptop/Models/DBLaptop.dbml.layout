@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBLaptop">
+  <DataContextMoniker Name="/DBLaptopDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4d013dc9-ac22-47b2-b6ab-cf9f461db0cb" absoluteBounds="6.25, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBLaptopDataContext/CHITIETHOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd1d2022-35e5-44f8-bdb1-15b387d333a7" absoluteBounds="6.265, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a610c5bb-1550-4205-a865-c06bb3c79fc4" absoluteBounds="3.5, 5.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBLaptopDataContext/HOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="259efd5a-90fb-4fab-9ab0-aaf1b1ac0f4c" absoluteBounds="3.515, 5.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="11215f14-3158-4097-a62c-7955d3e6382c" absoluteBounds="0.75, 1.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBLaptopDataContext/LOAISP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6517bcc3-e91b-494e-9eb4-f2d4795b5b52" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dae0a013-abbd-4e24-a1f6-2b674b9a4271" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DBLaptopDataContext/SANPHAM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f366abd3-5133-47e6-965c-38b058231843" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae67708d-43b2-499c-b5f9-0c9d674932bf" absoluteBounds="0.75, 5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DBLaptopDataContext/TAIKHOAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4c15eae-ec4b-4b79-b81d-3fc92326983c" absoluteBounds="0.765, 5.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 6.23159912109375); (7.25 : 6.23159912109375); (7.25 : 2.95359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBLaptopDataContext/HOADON/HOADON_CHITIETHOADON" />
+      <nodes>
+        <classShapeMoniker Id="a610c5bb-1550-4205-a865-c06bb3c79fc4" />
+        <classShapeMoniker Id="4d013dc9-ac22-47b2-b6ab-cf9f461db0cb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.16429768880208); (6.25 : 2.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBLaptopDataContext/SANPHAM/SANPHAM_CHITIETHOADON" />
+      <nodes>
+        <classShapeMoniker Id="dae0a013-abbd-4e24-a1f6-2b674b9a4271" />
+        <classShapeMoniker Id="4d013dc9-ac22-47b2-b6ab-cf9f461db0cb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.22199625651042); (3.5 : 2.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBLaptopDataContext/LOAISP/LOAISP_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="11215f14-3158-4097-a62c-7955d3e6382c" />
+        <classShapeMoniker Id="dae0a013-abbd-4e24-a1f6-2b674b9a4271" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.23159912109375); (3.5 : 6.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBLaptopDataContext/TAIKHOAN/TAIKHOAN_HOADON" />
+      <nodes>
+        <classShapeMoniker Id="ae67708d-43b2-499c-b5f9-0c9d674932bf" />
+        <classShapeMoniker Id="a610c5bb-1550-4205-a865-c06bb3c79fc4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
